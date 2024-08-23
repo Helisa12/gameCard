@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "Beaumont";
+  src: url("../fonts/Catherine.ttf");
+}
+* {
+  font-family: arial;
+}
+body {
+  position: relative;
+  background-image: linear-gradient(200deg, #436ce8, #a9a8b7);
+}
+
+img {
+  width: 120px;
+  margin-top: -30px;
+  margin-bottom: -15px;
+}
+
+h1 {
+  font-family: arial;
+  text-align: center;
+  margin-top: 10px;
+  color: #5e7db1;
+}
+
+.logo {
+  font-family: Beaumont;
+  font-size: 170px;
+  margin-left: 40px;
+  margin-top: -30px;
+  margin-bottom: 5px;
+}
+
+.FORM {
+  width: 360px;
+  background: #edf2fb;
+  height: 500px;
+  padding: 40px 30px;
+  border-radius: 10px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  margin-top: 295px;
+}
+.FORM-text {
+  margin-top: -55px;
+  text-align: center;
+  color: #9d0d0d;
+}
+.FORM-text label {
+  font-family: arial;
+  font-size: 15px;
+  font-style: italic;
+  color: #c7a14d;
+}
+.FORM-text header a {
+  font-family: Beaumont;
+  font-size: 90px;
+  text-decoration: none;
+}
+.FORM-text header a:visited {
+  color: #436ce8;
+}
+.FORM-text header a:hover {
+  color: #c7a14d;
+}
+
+input {
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding: 7px;
+  border-radius: 10px;
+  width: 300px;
+  color: #023ce8;
+}
+.msg-erreur {
+  font-size: 12px;
+  color: #436ce8;
+}
+.msg-update {
+  font-size: 12px;
+  color: greenyellow;
+}
+
+p {
+  font-size: 13px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+button {
+  border-radius: 5px;
+  margin: 3px;
+  color: #1c479f;
+  font-weight: 600;
+}

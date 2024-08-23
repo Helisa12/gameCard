@@ -1,0 +1,128 @@
+@font-face {
+  font-family: "Beaumont";
+  src: url("../fonts/Catherine.ttf");
+}
+* {
+  font-family: arial;
+}
+body {
+  position: relative;
+  background-image: linear-gradient(180deg, #436ce8, #d1cef9);
+  text-align: center;
+}
+p {
+  color: #fbefee;
+}
+
+h1 {
+  font-family: arial;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.logo {
+  font-family: Beaumont;
+  font-size: 70px;
+  /* margin-left: 40px; */
+  /* margin-top: -30px; */
+  text-align: center;
+  margin-top: 1.3rem;
+  text-decoration: none;
+}
+.logo a {
+  text-decoration: none;
+}
+.logo a:hover {
+  color: #8b2b1d;
+}
+
+.home-redirection {
+  font-family: Beaumont;
+  font-size: 70px;
+  text-align: center;
+}
+.home-redirection a {
+  text-decoration: none;
+}
+.home-redirection a:hover {
+  color: #8b2b1d;
+}
+
+.FORM {
+  width: 360px;
+  background: #ffffff;
+  height: 500px;
+  padding: 80px 40px;
+  border-radius: 10px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  margin-top: 350px;
+}
+.FORM-text {
+  margin-top: -55px;
+  text-align: center;
+}
+.FORM-text label {
+  font-family: arial;
+  font-size: 15px;
+  font-style: italic;
+}
+.FORM-text header a {
+  font-family: Beaumont;
+  font-size: 80px;
+  text-decoration: none;
+}
+.FORM-text header a:visited {
+  color: black;
+}
+.FORM-text header a:hover {
+  color: #e70000;
+}
+
+input {
+  margin-bottom: 20px;
+  font-size: 15px;
+  padding: 7px;
+}
+.msg-erreur {
+  font-size: 12px;
+  color: #9f0000;
+}
+.msg-update {
+  font-size: 12px;
+  color: rgb(0, 179, 122);
+}
+
+p {
+  font-size: 13px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.gif img {
+  /* margin-top: 100px; */
+  width: 400px;
+}
+
+.btn span {
+  color: #ac301d;
+  font-weight: 600;
+  font-size: 18px;
+}
+button a {
+  text-decoration: none;
+}
+
+button a :hover {
+  color: rgb(255, 0, 0);
+}
+
+button {
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: rgb(255, 0, 0, 0.4) -5px 5px, rgb(255, 0, 0, 0.3) -10px 10px,
+    rgb(255, 0, 0, 0.2) -15px 15px, rgba(159, 66, 66, 0.1) -20px 20px,
+    rgba(250, 216, 216, 0.05) -25px 25px;
+}
